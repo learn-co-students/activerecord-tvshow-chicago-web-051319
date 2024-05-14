@@ -57,7 +57,7 @@ describe Show do
       expect(Show.least_popular_show).to eq(@the_cleveland_show)
     end
   end
-
+   
   describe "::ratings_sum" do
     it "returns the sum of all the ratings of all the tv shows" do
       expect(Show.ratings_sum).to eq(22)
